@@ -15,6 +15,9 @@
 		E23E830C2236C38F002B91A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E23E830A2236C38F002B91A9 /* LaunchScreen.storyboard */; };
 		E23E83172236C38F002B91A9 /* GetAplotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E83162236C38F002B91A9 /* GetAplotTests.swift */; };
 		E23E83222236C390002B91A9 /* GetAplotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E83212236C390002B91A9 /* GetAplotUITests.swift */; };
+		E23E83302236C959002B91A9 /* favouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E832F2236C959002B91A9 /* favouriteViewController.swift */; };
+		E23E83322236C975002B91A9 /* chatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E83312236C975002B91A9 /* chatsViewController.swift */; };
+		E23E83342236C98F002B91A9 /* postViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23E83332236C98F002B91A9 /* postViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E23E831D2236C390002B91A9 /* GetAplotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetAplotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23E83212236C390002B91A9 /* GetAplotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAplotUITests.swift; sourceTree = "<group>"; };
 		E23E83232236C390002B91A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E23E832F2236C959002B91A9 /* favouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favouriteViewController.swift; sourceTree = "<group>"; };
+		E23E83312236C975002B91A9 /* chatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chatsViewController.swift; sourceTree = "<group>"; };
+		E23E83332236C98F002B91A9 /* postViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				E23E83012236C38D002B91A9 /* FirstViewController.swift */,
 				E23E83032236C38D002B91A9 /* SecondViewController.swift */,
 				E23E83052236C38D002B91A9 /* Main.storyboard */,
+				E23E83312236C975002B91A9 /* chatsViewController.swift */,
+				E23E83332236C98F002B91A9 /* postViewController.swift */,
+				E23E832F2236C959002B91A9 /* favouriteViewController.swift */,
 				E23E83082236C38F002B91A9 /* Assets.xcassets */,
 				E23E830A2236C38F002B91A9 /* LaunchScreen.storyboard */,
 				E23E830D2236C38F002B91A9 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E23E83302236C959002B91A9 /* favouriteViewController.swift in Sources */,
 				E23E83042236C38D002B91A9 /* SecondViewController.swift in Sources */,
+				E23E83342236C98F002B91A9 /* postViewController.swift in Sources */,
 				E23E83002236C38D002B91A9 /* AppDelegate.swift in Sources */,
+				E23E83322236C975002B91A9 /* chatsViewController.swift in Sources */,
 				E23E83022236C38D002B91A9 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
